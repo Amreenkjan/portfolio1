@@ -1,0 +1,60 @@
+
+*{
+    padding:0px;
+    margin:0px;
+}
+header{
+    background-image:url("pexels-pixabay-414660.jpg");
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.main{
+    max-width: 1100px;
+    margin:auto;
+}
+ul{
+    list-style-type:none;
+    float:right;
+    margin-top: 25px;
+}
+ul li{
+    display:inline-block;
+    border:1px solid transparent;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+    display:block;
+    font-weight: bold;
+    padding:5px;
+}
+ul li a:hover{
+    background-color:white;
+    color:red;
+    transition:0.6s ease;
+}
+.active{
+    background-color:white ;
+    color:black;
+}
+span{
+    color: orange;
+}
+.logo img{
+    margin-top:25px;
+     size: 0ch;
+}
+.center_text{
+    margin-top: 200px;
+    margin-left: 530px;
+    color: black;
+    font-size: 25px;
+
+}
+
+h1{
+    color:white;
+    font-size: 50px;
+}
